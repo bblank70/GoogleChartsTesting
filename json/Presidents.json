@@ -1,0 +1,364 @@
+{
+  "Data": [
+    {
+      "President": "Abraham Lincoln",
+      "Cause of Death": "Gunshot",
+      "Age": 56.17,
+      "AvgRank": 1,
+      "Height": 193,
+      "Weight": 83.9
+    },
+    {
+      "President": "Andrew Jackson",
+      "Cause of Death": "Cardiovascular",
+      "Age": 78.23,
+      "AvgRank": "22",
+      "Height": 185,
+      "Weight": 69.84
+    },
+    {
+      "President": "Andrew Johnson",
+      "Cause of Death": "Stroke",
+      "Age": 66.59,
+      "AvgRank": "43",
+      "Height": 178,
+      "Weight": "NA"
+    },
+    {
+      "President": "Barack Obama",
+      "Cause of Death": "NA",
+      "Age": 62.3,
+      "AvgRank": "10",
+      "Height": 185,
+      "Weight": 81.63
+    },
+    {
+      "President": "Benjamin Harrison",
+      "Cause of Death": "Respiratory Illness",
+      "Age": 67.56,
+      "AvgRank": "32",
+      "Height": 168,
+      "Weight": 72.56
+    },
+    {
+      "President": "Bill Clinton",
+      "Cause of Death": "N/A",
+      "Age": 77.25,
+      "AvgRank": "19",
+      "Height": 188,
+      "Weight": 101.13
+    },
+    {
+      "President": "Calvin Coolidge",
+      "Cause of Death": "Cardiovascular",
+      "Age": 60.51,
+      "AvgRank": "24",
+      "Height": 178,
+      "Weight": "NA"
+    },
+    {
+      "President": "Chester A. Arthur",
+      "Cause of Death": "Stroke",
+      "Age": 57.12,
+      "AvgRank": "30",
+      "Height": 188,
+      "Weight": "NA"
+    },
+    {
+      "President": "Donald Trump",
+      "Cause of Death": "NA",
+      "Age": 77.43,
+      "AvgRank": "41",
+      "Height": 191,
+      "Weight": 107.5
+    },
+    {
+      "President": "Dwight D. Eisenhower",
+      "Cause of Death": "Cardiovascular",
+      "Age": 78.45,
+      "AvgRank": "5",
+      "Height": 179,
+      "Weight": 78
+    },
+    {
+      "President": "Franklin D. Roosevelt",
+      "Cause of Death": "Stroke",
+      "Age": 63.2,
+      "AvgRank": "3",
+      "Height": 188,
+      "Weight": 86.17
+    },
+    {
+      "President": "Franklin Pierce",
+      "Cause of Death": "Liver Cirrhosis",
+      "Age": 64.87,
+      "AvgRank": "42",
+      "Height": 178,
+      "Weight": 73.47
+    },
+    {
+      "President": "George H. W. Bush",
+      "Cause of Death": "Parkinsons",
+      "Age": 94.47,
+      "AvgRank": "21",
+      "Height": 188,
+      "Weight": 88.44
+    },
+    {
+      "President": "George W. Bush",
+      "Cause of Death": "NA",
+      "Age": 77.38,
+      "AvgRank": "29",
+      "Height": 182,
+      "Weight": 84.35
+    },
+    {
+      "President": "George Washington",
+      "Cause of Death": "Medical Malpractice",
+      "Age": 67.81,
+      "AvgRank": "2",
+      "Height": 188,
+      "Weight": 79.37
+    },
+    {
+      "President": "Gerald Ford",
+      "Cause of Death": "Cardiovascular",
+      "Age": 93.45,
+      "AvgRank": "28",
+      "Height": 183,
+      "Weight": "NA"
+    },
+    {
+      "President": "Grover Cleveland",
+      "Cause of Death": "Cardiovascular",
+      "Age": 71.26,
+      "AvgRank": "25",
+      "Height": 180,
+      "Weight": 117.91
+    },
+    {
+      "President": "Harry S. Truman",
+      "Cause of Death": "Respiratory Illness",
+      "Age": 88.63,
+      "AvgRank": "6",
+      "Height": 175,
+      "Weight": 75.74
+    },
+    {
+      "President": "Herbert Hoover",
+      "Cause of Death": "Cancer",
+      "Age": 90.19,
+      "AvgRank": "36",
+      "Height": 182,
+      "Weight": 84.81
+    },
+    {
+      "President": "James A. Garfield",
+      "Cause of Death": "Gunshot",
+      "Age": 49.83,
+      "AvgRank": "27",
+      "Height": 183,
+      "Weight": 90.7
+    },
+    {
+      "President": "James Buchanan",
+      "Cause of Death": "Respiratory Illness",
+      "Age": 77.11,
+      "AvgRank": "44",
+      "Height": 183,
+      "Weight": 98.41
+    },
+    {
+      "President": "James K. Polk",
+      "Cause of Death": "Cholera",
+      "Age": 53.62,
+      "AvgRank": "18",
+      "Height": 173,
+      "Weight": 78.91
+    },
+    {
+      "President": "James Madison",
+      "Cause of Death": "Cardiovascular",
+      "Age": 85.28,
+      "AvgRank": "16",
+      "Height": 163,
+      "Weight": 55.33
+    },
+    {
+      "President": "James Monroe",
+      "Cause of Death": "Tuberculosis",
+      "Age": 73.18,
+      "AvgRank": "12",
+      "Height": 183,
+      "Weight": 85.71
+    },
+    {
+      "President": "Jimmy Carter",
+      "Cause of Death": "NA",
+      "Age": 99.14,
+      "AvgRank": "26",
+      "Height": 177,
+      "Weight": 80.27
+    },
+    {
+      "President": "Joe Biden",
+      "Cause of Death": "NA",
+      "Age": 81,
+      "AvgRank": "NA",
+      "Height": 182,
+      "Weight": 80.74
+    },
+    {
+      "President": "John Adams",
+      "Cause of Death": "Cardiovascular",
+      "Age": 90.68,
+      "AvgRank": "15",
+      "Height": 170,
+      "Weight": 83.9
+    },
+    {
+      "President": "John F Kennedy",
+      "Cause of Death": "Gunshot",
+      "Age": 46.48,
+      "AvgRank": "8",
+      "Height": 185,
+      "Weight": 79.37
+    },
+    {
+      "President": "John Quincy Adams",
+      "Cause of Death": "Stroke",
+      "Age": 80.62,
+      "AvgRank": "17",
+      "Height": 171,
+      "Weight": 92.06
+    },
+    {
+      "President": "John Tyler",
+      "Cause of Death": "Stroke",
+      "Age": 71.81,
+      "AvgRank": "39",
+      "Height": 183,
+      "Weight": "NA"
+    },
+    {
+      "President": "Lyndon B. Johnson",
+      "Cause of Death": "Cardiovascular",
+      "Age": 64.41,
+      "AvgRank": "11",
+      "Height": 192,
+      "Weight": 95.24
+    },
+    {
+      "President": "Martin Van Buren",
+      "Cause of Death": "Respiratory Illness",
+      "Age": 79.63,
+      "AvgRank": "34",
+      "Height": 168,
+      "Weight": 74.38
+    },
+    {
+      "President": "Millard Fillmore",
+      "Cause of Death": "Stroke",
+      "Age": 74.16,
+      "AvgRank": "38",
+      "Height": 175,
+      "Weight": "NA"
+    },
+    {
+      "President": "Richard Nixon",
+      "Cause of Death": "Stroke",
+      "Age": 81.28,
+      "AvgRank": "31",
+      "Height": 182,
+      "Weight": 79.37
+    },
+    {
+      "President": "Ronald Raegan",
+      "Cause of Death": "Respiratory Illness",
+      "Age": 93.33,
+      "AvgRank": "9",
+      "Height": 185,
+      "Weight": 81.63
+    },
+    {
+      "President": "Rutherford B. Hayes",
+      "Cause of Death": "Cardiovascular",
+      "Age": 70.29,
+      "AvgRank": "33",
+      "Height": 174,
+      "Weight": 79.37
+    },
+    {
+      "President": "Theodore Roosevelt",
+      "Cause of Death": "Cardiovascular",
+      "Age": 60.19,
+      "AvgRank": "4",
+      "Height": 178,
+      "Weight": 107.48
+    },
+    {
+      "President": "Thomas Jefferson",
+      "Cause of Death": "Uremia",
+      "Age": 83.22,
+      "AvgRank": "7",
+      "Height": 189,
+      "Weight": 82.09
+    },
+    {
+      "President": "Ulysses S. Grant",
+      "Cause of Death": "Cancer",
+      "Age": 63.24,
+      "AvgRank": "20",
+      "Height": 173,
+      "Weight": 70.75
+    },
+    {
+      "President": "Warren G. Harding",
+      "Cause of Death": "Cardiovascular",
+      "Age": 57.75,
+      "AvgRank": "37",
+      "Height": 183,
+      "Weight": 78.46
+    },
+    {
+      "President": "William Henry Harrison",
+      "Cause of Death": "Typhoid",
+      "Age": 68.15,
+      "AvgRank": "40",
+      "Height": 173,
+      "Weight": 73.47
+    },
+    {
+      "President": "William Howard Taft",
+      "Cause of Death": "Cardiovascular",
+      "Age": 72.47,
+      "AvgRank": "23",
+      "Height": 182,
+      "Weight": 150.57
+    },
+    {
+      "President": "William McKinley",
+      "Cause of Death": "Gunshot",
+      "Age": 58.62,
+      "AvgRank": "14",
+      "Height": 170,
+      "Weight": 90.25
+    },
+    {
+      "President": "Woodrow Wilson",
+      "Cause of Death": "Stroke",
+      "Age": 67.1,
+      "AvgRank": "13",
+      "Height": 180,
+      "Weight": 77.1
+    },
+    {
+      "President": "Zachary Taylor",
+      "Cause of Death": "Medical Malpractice",
+      "Age": 65.62,
+      "AvgRank": "35",
+      "Height": 173,
+      "Weight": 104.31
+    }
+  ]
+}
