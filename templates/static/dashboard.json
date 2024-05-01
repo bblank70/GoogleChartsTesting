@@ -1,0 +1,20 @@
+{
+    "barchart": [
+      {
+        "5-Star": 8,
+        "4-Star": 12,
+        "3-Star": 6,
+        "2-Star": 2,
+        "1-Star": 1
+      }
+    ],
+    "recents": [ [{"business_id":"GAuweBrcC_wK3a0UhZjwfA","name":"Loco Pez","address":"2401 E Norris St","city":"Philadelphia","state":"PA","postal_code":19125,"PlatformRating":4.0,"YourRating": 2, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/S9Xlj9dO-ZBK2k6h6WxMWg.jpg"},
+    {"business_id":"k2YJkdLg25xlYjshpeEtkQ","name":"Volo Coffeehouse","address":"4360 Main St","city":"Philadelphia","state":"PA","postal_code":19127,"PlatformRating":4.5,"YourRating": 5, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/ZUQg71uQUl0GzP36OZDTsg.jpg"},
+    {"business_id":"G15tUaO6G0nS41zY8g8Yow","name":"Poke Bros","address":"636 Easton Rd","city":"Warrington","state":"PA","postal_code":18976,"PlatformRating":4.5,"YourRating": 4, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/0AnADz1U2qRUcstg91nrCg.jpg"},
+    {"business_id":"22C6ueBbwUM7hpLU-sTExw","name":"White Elephant Restaurant","address":"759 Huntingdon Pike","city":"Huntingdon Valley","state":"PA","postal_code":19006,"PlatformRating":4.0, "YourRating": 3, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/HxgWGnrhW6IJk3HCUZ3XPQ.jpg"},
+    {"business_id":"cG6FvMfbZmD-dDtLUwE2ow","name":"Uno Pizzeria & Grill","address":"801 Neshaminy Mall","city":"Bensalem","state":"PA","postal_code":19020,"PlatformRating":3.5, "YourRating": 2, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/1t_N97dsBzEc_SZgTDuPng.jpg"}
+    ]
+
+    ]
+
+  }

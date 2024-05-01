@@ -1,0 +1,20 @@
+{
+    "barchart": [
+      {
+        "5-Star": 8,
+        "4-Star": 12,
+        "3-Star": 6,
+        "2-Star": 2,
+        "1-Star": 1
+      }
+    ],
+    "recents": [{"name":"Loco Pez","stars":4.0,"YourRating":2, "latitude":39.977142, "longitude":-75.127202, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/S9Xlj9dO-ZBK2k6h6WxMWg.jpg"},
+    {"name":"Volo Coffeehouse","stars":4.5,"YourRating":5, "latitude": 40.025517, "longitude":-75.224097, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/ZUQg71uQUl0GzP36OZDTsg.jpg"},
+    {"name":"Poke Bros","stars":4.5,"YourRating":4, "latitude":40.230761, "longitude":-75.139838, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/0AnADz1U2qRUcstg91nrCg.jpg"},
+    {"name":"White Elephant Restaurant","stars":4.0, "YourRating":3, "latitude":40.08795, "longitude":-75.093699, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/HxgWGnrhW6IJk3HCUZ3XPQ.jpg"},
+    {"name":"Uno Pizzeria & Grill","stars":3.5, "YourRating":2, "latitude":40.138446, "longitude":-74.957957, "hyperlink":"https://storage.googleapis.com/2024capstone51/photos/1t_N97dsBzEc_SZgTDuPng.jpg"}
+    ],
+    
+    "KPI": []
+
+}
