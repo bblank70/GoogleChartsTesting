@@ -6,38 +6,55 @@ import (
 	"io"
 	"net/http"
 	"os"
-	"text/template"
 
 	"github.com/bblank70/GoogleChartsTesting/pkg/handlers"
 )
 
-var tpl *template.Template
+//var tpl *template.Template
 
-type President struct {
-	Name       string  `json:"President"`
-	DeathCause string  `json:"Cause of Death"`
-	Age        float64 `json:"Age"`
-	AvgRank    int     `json:"AvgRank"`
-	Height     float64 `json:"Height"`
-	Weight     float64 `json:"Weight"`
+// TODO: WE NEED A TYPE FOR EVERY CHART/OBJECT
+type Barchart struct {
+	Star5 int `json:"5-Star"`
+	Star4 int `json:"4-Star"`
+	Star3 int `json:"3-Star"`
+	Star2 int `json:"2-Star"`
+	Star1 int `json:"1-Star"`
 }
 
+// /these will eventually get deprecated
 type Collection struct {
-	Presidents []President `json:"Data"`
+	Ratings []Barchart       `json:"barchart"`
+	History []BusinessRating `json:"recents"`
+	//	Indicators []KPI
 }
 
-var Dataslice []President
+var Dataslice []Barchart
 
-// type RecommendataionResult []Business
+// geoslice and Geoslice allow for storage of the coordinates to map with leaflet
 
-// init instantiates the templates, they must be .tmpl extenstions
-// func init() {
-// 	tpl = template.Must(template.ParseGlob("templates/*.html"))
-// }
+type Geomap map[string]float64
+
+type BusinessRating struct {
+	BusinessName string  `json:"name"`
+	Stars        float64 `json:"stars"`
+	YourRating   int64   `json:"YourRating"`
+	Latitude     float64 `json:"latitude"`
+	Longitude    float64 `json:"longitude"`
+	Photopath    string  `json:"hyperlink"`
+}
+
+// THEN WE NEED TO COLLECT THEM INTO SOME CONTAINER (probably a struct)
+// / Chart Data is the data object we will pass into the template
+type DashboardData struct {
+	Barchart Barchart
+	Geo      []Geomap
+	Recents  []BusinessRating
+	//	KPI      Indicator
+}
 
 func main() {
 
-	jsonFile, err := os.Open("./json/Presidents.json")
+	jsonFile, err := os.Open("./json/dashboard.json")
 
 	// if we os.Open returns an error then handle it
 	if err != nil {
@@ -52,22 +69,47 @@ func main() {
 
 	byteValue, _ := io.ReadAll(jsonFile)
 	var c Collection
-	json.Unmarshal(byteValue, &c)
+	var Dashboard DashboardData
 
-	for i := 0; i < len(c.Presidents); i++ {
-		presRecord := President{
-			Name:       c.Presidents[i].Name,
-			DeathCause: c.Presidents[i].DeathCause,
-			Age:        c.Presidents[i].Age,
-			AvgRank:    c.Presidents[i].AvgRank,
-			Height:     c.Presidents[i].Height,
-			Weight:     c.Presidents[i].Weight,
+	json.Unmarshal(byteValue, &c)
+	fmt.Println("This is c:", c)
+
+	for i := 0; i < len(c.Ratings); i++ {
+		ChartRecord := Barchart{
+			Star5: c.Ratings[i].Star5,
+			Star4: c.Ratings[i].Star4,
+			Star3: c.Ratings[i].Star3,
+			Star2: c.Ratings[i].Star2,
+			Star1: c.Ratings[i].Star1,
 		}
 
-		Dataslice = append(Dataslice, presRecord)
-
+		fmt.Println("ChartRecord is:", ChartRecord)
+		Dashboard.Barchart = ChartRecord
 	}
-	fmt.Println(Dataslice)
+
+	var G = make(Geomap)
+	var Geoslice []Geomap
+
+	var RatingSlice []BusinessRating
+
+	for i := 0; i < len(c.History); i++ {
+		lat := c.History[i].Latitude
+		long := c.History[i].Longitude
+		G["lat"] = lat
+		G["long"] = long
+		RecentReview := BusinessRating{
+			BusinessName: c.History[i].BusinessName,
+			Stars:        c.History[i].Stars,
+			YourRating:   c.History[i].YourRating,
+			Photopath:    c.History[i].Photopath,
+		}
+		RatingSlice = append(RatingSlice, RecentReview)
+		Geoslice = append(Geoslice, G)
+	}
+	Dashboard.Recents = RatingSlice
+	Dashboard.Geo = Geoslice
+
+	fmt.Println("The data exported to the template will be:", Dashboard)
 
 	// these are our paths
 	http.HandleFunc("/", handlers.Index)
